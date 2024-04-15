@@ -3,6 +3,7 @@ import org.jetbrains.compose.desktop.application.dsl.TargetFormat
 plugins {
     kotlin("jvm")
     id("org.jetbrains.compose") version "1.6.1"
+    id("dev.hydraulic.conveyor") version "1.5"
 }
 
 dependencies {
@@ -17,16 +18,6 @@ dependencies {
 kotlin {
     jvmToolchain(17)
 }
-
-group = "org.currytree"
-version = "1.0.1-SNAPSHOT"
-
-repositories {
-    mavenCentral()
-    maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
-    google()
-}
-
 
 compose.desktop {
     application {
