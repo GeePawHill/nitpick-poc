@@ -1,5 +1,5 @@
 rootProject.name = "nitpic-poc"
-include("core", "compose")
+include("core", "compose", "cli")
 
 
 dependencyResolutionManagement {
