@@ -2,6 +2,7 @@ plugins {
     kotlin("jvm")
     java
     application
+    id("dev.hydraulic.conveyor") version "1.5"
 }
 
 dependencies {
